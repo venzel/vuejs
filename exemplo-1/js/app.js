@@ -6,8 +6,13 @@ const MyApp = {
         };
     },
     methods: {
+        sauda: function () {
+            console.log(this);
+        },
         submitForm(e) {
             e.preventDefault();
+
+            console.log(this);
 
             this.name = this.input_name;
         },
